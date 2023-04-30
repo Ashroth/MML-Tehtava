@@ -27,5 +27,5 @@ Tuote - Hinta pari, nämä kerätään listaan
 ### LaskutusTapahtuma.java
 Tuote - Hinta - KPL - Yhteensä.
 
-### Lasku
+### Lasku.java
 Asiakas - LaskutusTapahtumat. Kerätään tapahtumat listaan
