@@ -1,31 +1,31 @@
-*Laskutusohjelma
+#Laskutusohjelma
 Java tehtävä
 
-**Rakenne.PNG
+##Rakenne.PNG
 Kuvailee datan rakenteita.
 
-**Tehtava.java
+##Tehtava.java
 Varsinainen ohjelma. Kerää tuotetiedot.
 
-***toinenAlgoritmi
+###toinenAlgoritmi
 "Avaa" asiakas- ja laskutustapahtumaluettelot. Käy läpi jokaisen asiakkaan ja jatkaa jos asiakas vastaa laskutustapahtuman asiakasta tai asiakas kuuluu maksulliseen ryhmään. Muodostetaan lasku. Kerätään laskutettavia tapahtumia laskuun niin kauan kuin niiden asiakas on sama. Asiakkaan muuttuessa tulostetaan lasku ja luetaan seuraava asiakas.
 
-***hidasAlgoritmi
+###hidasAlgoritmi
 Vaihtoehtoinen algoritmi "hidasAlgoritmi" toimii vastaavasti, mutta kaikki tapahtumat käydään läpi jokaisen asiakkaan kohdalla. Algoritmi on hitaampi, mutta asiakkaiden ja laskutustapahtumien ei tarvitse olla hyvin järjesteltyjä
 
-***yksiAlgoritmi
+###yksiAlgoritmi
 Suunnilleen sama kuin toinenAlgorimit, mutta yrittää lukea tiedostosta. Teknisiä vaikeuksia
 
-**Oliot
+##Oliot
 
-***Asiakas.java
+###Asiakas.java
 Sisältää asiakkaan perustiedot yhdessä oliossa.
 
-***Tuotteet.java
+###Tuotteet.java
 Tuote - Hinta pari, nämä kerätään listaan
 
-***LaskutusTapahtuma.java
+###LaskutusTapahtuma.java
 Tuote - Hinta - KPL - Yhteensä.
 
-***Lasku
+###Lasku
 Asiakas - LaskutusTapahtumat. Kerätään tapahtumat listaan
